@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="/" class="logo">
+                <img src="/images/logo.svg" alt="Norgaard Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Competencies</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-primary">Get in Touch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home" style="position: relative; overflow: hidden; width: 100%; padding: 120px 0 80px;">
+            <!-- Subtle Moving Video Background -->
+            <video autoplay loop muted playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; opacity: 0.08; mix-blend-mode: multiply; pointer-events: none;">
+                <!-- Local custom video -->
+                <source src="/images/hero-bg.mp4" type="video/mp4">
+            </video>
+
+            <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+                <span class="pill-tag" style="margin-bottom: 24px;">Independent Consultant</span>
+            <h1 class="hero-title">Jens Nørgaard</h1>
+            <p class="subtitle">Enterprise Infrastructure Architect & Strategic Advisor. Driving digital transformation
+                and secure cloud adoption in the financial sector for over 25 years.</p>
+
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">Start a Conversation</a>
+                <a href="#experience" class="text-link"
+                    style="margin-left: 16px; font-family: var(--font-display); font-size: 14px; font-weight: 500;">View
+                    Experience</a>
+            </div>
+
+            <div class="code-preview" style="margin-top: 80px; max-width: 800px;">
+                <span style="color: #9fc9a2;">// Core Capabilities</span><br>
+                <span style="color: #dfa88f;">const</span> architect = {<br>
+                &nbsp;&nbsp;expertise: [<span style="color: #9fbbe0;">"Azure"</span>, <span
+                    style="color: #9fbbe0;">"Hybrid Cloud"</span>, <span
+                    style="color: #9fbbe0;">"Compliance"</span>],<br>
+                &nbsp;&nbsp;experience: <span style="color: #c0a8dd;">25</span>,<br>
+                &nbsp;&nbsp;focus: <span style="color: #9fbbe0;">"Financial Sector"</span><br>
+                };
+            </div>
+        </div>
+        </section>
+
+        <section id="about" class="section container"
+            style="background-color: var(--surface-100); border-radius: 24px; padding: 80px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <h2 class="section-title">Professional Summary</h2>
+            <div style="max-width: 800px;">
+                <p>Enterprise Infrastructure Architect and Strategic Advisor with 25+ years of experience in financial
+                    services, including banking, insurance, and pension sectors. Expert in cloud transformation,
+                    regulatory compliance (EBA, EIOPA, Finanstilsynet), and risk management.</p>
+                <p>Proven leader in delivering secure, scalable IT solutions and guiding organizations through digital
+                    transformation.</p>
+            </div>
+
+            <div style="display: flex; gap: 48px; justify-content: center; margin-top: 48px;">
+                <div>
+                    <h3 class="font-display" style="font-size: 48px; letter-spacing: -1.5px; margin-bottom: 0;">25+</h3>
+                    <p style="font-family: var(--font-display); font-size: 14px;">Years Experience</p>
+                </div>
+                <div>
+                    <h3 class="font-display" style="font-size: 48px; letter-spacing: -1.5px; margin-bottom: 0;">18+</h3>
+                    <p style="font-family: var(--font-display); font-size: 14px;">Years Freelance</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section container">
+            <h2 class="section-title text-center" style="text-align: center;">Core Competencies</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <span class="pill-tag">Infrastructure</span>
+                    <h3 class="card-title" style="margin-top: 16px;">Cloud & Hybrid</h3>
+                    <p>Expertise in Microsoft Azure, Microsoft 365, Hybrid Cloud, DevOps, automation, and infrastructure
+                        modernization.</p>
+                </div>
+                <div class="card">
+                    <span class="pill-tag">Regulatory</span>
+                    <h3 class="card-title" style="margin-top: 16px;">Security & Compliance</h3>
+                    <p>Deep understanding of financial sector IT architecture and regulatory requirements (EBA, EIOPA,
+                        Finanstilsynet).</p>
+                </div>
+                <div class="card">
+                    <span class="pill-tag">Management</span>
+                    <h3 class="card-title" style="margin-top: 16px;">Strategic Leadership</h3>
+                    <p>Strong business acumen, project/program management, stakeholder engagement, and change
+                        leadership.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section container">
+            <h2 class="section-title text-center" style="text-align: center;">Experience Highlights</h2>
+
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-dot dot-thinking"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-label" style="color: #dfa88f;">2024 &ndash; 2025 &middot; Jyske Bank</div>
+                        <div class="timeline-desc">
+                            <strong style="color: var(--color-dark);">Transformation Lead & Cloud Architect</strong><br>
+                            Led AI, Data, and Cloud initiatives, accelerating digital transformation. Managed
+                            stakeholders and suppliers, ensuring secure and compliant cloud platforms.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-dot dot-grep"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-label" style="color: #9fc9a2;">2023 &ndash; 2024 &middot; Nordea Group
+                        </div>
+                        <div class="timeline-desc">
+                            <strong style="color: var(--color-dark);">Cloud Architect & Project Manager</strong><br>
+                            Oversaw IT integration for a major insurance acquisition. Chaired the Joint IT Architectural
+                            Board, meeting EBA, EIOPA, and Finanstilsynet standards.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-dot dot-read"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-label" style="color: #9fbbe0;">2022 &middot; PFA Pension</div>
+                        <div class="timeline-desc">
+                            <strong style="color: var(--color-dark);">Enterprise Infrastructure Architect</strong><br>
+                            Implemented Life Cycle Management and Software Asset Management to reduce operational risk. Designed and deployed a unified CMDB in ServiceNow for compliance.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-dot dot-edit"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-label" style="color: #c0a8dd;">2019 &ndash; 2021 &middot; ATP</div>
+                        <div class="timeline-desc">
+                            <strong style="color: var(--color-dark);">Cloud Architect & Advisor</strong><br>
+                            Designed and implemented a secure Azure Cloud Datacenter for a major pension fund. Provided strategic advisory to IT management and CISO.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section container text-center" style="text-align: center;">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="subtitle" style="margin: 0 auto 32px;">Looking for architectural guidance or strategic advisory
+                for your next cloud transformation?</p>
+
+            <div style="max-width: 500px; margin: 0 auto;">
+                <div data-fs-success class="form-message form-success" hidden>
+                    Thank you! Your message has been sent successfully.
+                </div>
+                <div data-fs-error class="form-message form-error" hidden>
+                    Oops! There was a problem submitting your form.
+                </div>
+
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" data-fs-field required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" data-fs-field required>
+                        <span data-fs-error="email" class="field-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" data-fs-field required></textarea>
+                        <span data-fs-error="message" class="field-error"></span>
+                    </div>
+
+                    <button type="submit" data-fs-submit-btn class="btn-primary" style="font-size: 16px; padding: 12px 24px; width: 100%; margin-top: 8px;">Send Message</button>
+                </form>
+
+                <script>
+                  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+                  formspree('initForm', { formElement: '#contact-form', formId: 'xeevbnkd' });
+                </script>
+                <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 48px;">
+                <div class="footer-section" style="max-width: 400px;">
+                    <h4>Norgaard ApS</h4>
+                    <p style="font-family: var(--font-serif); font-size: 15px; color: rgba(38,37,30,0.55);">Enterprise
+                        Infrastructure Architecture & Strategic Advisory for the Financial Sector.</p>
+                </div>
+                <div class="footer-section" style="min-width: 200px;">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Competencies</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo logo">
+                    <img src="/images/logo.svg" alt="Norgaard Logo">
+                </div>
+                <p>&copy; 2026 Norgaard ApS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
